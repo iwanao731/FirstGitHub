@@ -4,17 +4,18 @@
 GitHubはソースコードのバージョンをWeb上で管理することができるため，チームで共同でプログラムを作ることができます．また，ソースコードを配布することもできます．
 
 # 始め方
-GitHub登録
-	- https://github.com/
-		- 学生の場合
-			- http://blog.falconsrv.net/articles/471
+## GitHub登録
+  - https://github.com/
+    - 学生の場合
+      - http://blog.falconsrv.net/articles/471
 
-Windowsの場合
-	- Git Bashをダウンロード
-		- https://git-for-windows.github.io/
-Mac OSの場合
-	- ターミナルを使用
+## 使用するアプリケーション
+  - Windowsの場合
+    - Git Bashをダウンロード
+      - https://git-for-windows.github.io/
 
+  - Mac OSの場合
+    - ターミナルを使用
 
 # リポジトリの作り方
   1. Repositoriesを選択
@@ -24,7 +25,7 @@ Mac OSの場合
   5. Create repository
 
 # ローカル環境での管理
-任意のフォルダで以下を入力(Windowsの場合はGit Bashを使用)
+任意のフォルダで以下を入力
 
     cd (folder_name/)
     git init
@@ -36,4 +37,4 @@ Mac OSの場合
 GitHubにアップロード
 
     git remote add origin https://github.com/(username)/(repogitory_name).git
-    git push -u origin master
+    git push origin master
