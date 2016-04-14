@@ -48,3 +48,6 @@ GitHubにアップロード
 Markdown方式に慣れよう
   - サンプル
     - https://github.com/iwanao731/Test
+
+openFrameworks addons (ofxaddons)
+  - http://ofxaddons.com/categories
