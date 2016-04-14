@@ -10,12 +10,17 @@ GitHubはソースコードのバージョンをWeb上で管理することが�
       - http://blog.falconsrv.net/articles/471
 
 ## 使用するアプリケーション
-  - Windowsの場合
-    - Git Bashをダウンロード
-      - https://git-for-windows.github.io/
-
-  - Mac OSの場合
-    - ターミナルを使用
+  - GitHubとのやり取り
+    - Windowsの場合
+      - Git Bashをダウンロード
+        - https://git-for-windows.github.io/
+  
+    - Mac OSの場合
+      - ターミナルを使用
+  
+  - Markdown Editor
+    - atom
+      - https://atom.io/
 
 # リポジトリの作り方
   1. Repositoriesを選択
@@ -38,3 +43,8 @@ GitHubにアップロード
 
     git remote add origin https://github.com/(username)/(repogitory_name).git
     git push origin master
+    
+# その他
+Markdown方式に慣れよう
+  - サンプル
+    - https://github.com/iwanao731/Test
