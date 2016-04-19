@@ -32,17 +32,17 @@ GitHubはソースコードのバージョンをWeb上で管理することが�
 # ローカル環境での管理
 任意のフォルダで以下を入力
 
-    cd (folder_name/)
-    git init
-    touch README.md
-    git add --all
-    git commit -m "initial commit"
+    $ cd (folder_name/)
+    $ git init
+    $ touch README.md
+    $ git add --all
+    $ git commit -m "initial commit"
 
 # リポジトリにアップロード
 GitHubにアップロード
 
-    git remote add origin https://github.com/(username)/(repogitory_name).git
-    git push origin master
+    $ git remote add origin https://github.com/(username)/(repogitory_name).git
+    $ git push origin master
 
 # その他
 Markdown方式に慣れよう
@@ -55,9 +55,13 @@ openFrameworks addons (ofxaddons)
 # 追記
 大学にいる間はプロキシの設定が必要かもしれないです．以下の情報を打ち込んでください．
 
-    git config --global http.proxy www-proxy.waseda.jp:8080
-    git config --global https.proxy www-proxy.waseda.jp:8080
+    $ git config --global http.proxy www-proxy.waseda.jp:8080
+    $ git config --global https.proxy www-proxy.waseda.jp:8080
 
+家で使うときは以下
+
+    $ git config —global --unset http.proxy
+    $ git config —global --unset https.proxy
 # 特定のファイルを除去したい場合
 .gitignoreを使う．
 
