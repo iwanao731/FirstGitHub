@@ -35,6 +35,7 @@ GitHubはソースコードのバージョンをWeb上で管理することが�
     $ cd (folder_name/)
     $ git init
     $ touch README.md
+    $ touch .gitignore
     $ git add --all
     $ git commit -m "initial commit"
 
@@ -62,8 +63,11 @@ openFrameworks addons (ofxaddons)
 
     $ git config --global --unset http.proxy
     $ git config --global --unset https.proxy
-# 特定のファイルを除去したい場合
-.gitignoreを使う．
+# 特定のファイルを除去したい(.gitignoreを使う)
 
-gitignoreの自動生成ツール
-[gitignore.io](https://www.gitignore.io/)
+1. gitignoreの自動生成ツールを使用
+  - [gitignore.io](https://www.gitignore.io/)
+2. 統合開発環境を検索(Visual Studio or openFrameworks等)
+3. .gitignoreに内容をコピー/ペースト
+
+
