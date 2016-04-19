@@ -57,7 +57,7 @@ Markdown方式に慣れよう
     $ git config --global http.proxy www-proxy.waseda.jp:8080
     $ git config --global https.proxy www-proxy.waseda.jp:8080
 
-家で使うときは以下
+家で使うための設定を戻す時は以下
 
     $ git config --global --unset http.proxy
     $ git config --global --unset https.proxy
