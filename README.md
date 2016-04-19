@@ -60,8 +60,8 @@ openFrameworks addons (ofxaddons)
 
 家で使うときは以下
 
-    $ git config —global --unset http.proxy
-    $ git config —global --unset https.proxy
+    $ git config --global --unset http.proxy
+    $ git config --global --unset https.proxy
 # 特定のファイルを除去したい場合
 .gitignoreを使う．
 
