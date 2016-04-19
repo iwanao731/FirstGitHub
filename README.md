@@ -55,6 +55,11 @@ openFrameworks addons (ofxaddons)
 # 追記
 大学にいる間はプロキシの設定が必要かもしれないです．以下の情報を打ち込んでください．
 
-		git config --global http.proxy www-proxy.waseda.jp:8080
-
+    git config --global http.proxy www-proxy.waseda.jp:8080
     git config --global https.proxy www-proxy.waseda.jp:8080
+
+# 特定のファイルを除去したい場合
+.gitignoreを使う．
+
+gitignoreの自動生成ツール
+[gitignore.io](https://www.gitignore.io/)
