@@ -14,10 +14,10 @@ GitHubはソースコードのバージョンをWeb上で管理することが�
     - Windowsの場合
       - Git Bashをダウンロード
         - https://git-for-windows.github.io/
-  
+
     - Mac OSの場合
       - ターミナルを使用
-  
+
   - Markdown Editor
     - atom
       - https://atom.io/
@@ -43,7 +43,7 @@ GitHubにアップロード
 
     git remote add origin https://github.com/(username)/(repogitory_name).git
     git push origin master
-    
+
 # その他
 Markdown方式に慣れよう
   - サンプル
@@ -51,3 +51,10 @@ Markdown方式に慣れよう
 
 openFrameworks addons (ofxaddons)
   - http://ofxaddons.com/categories
+
+# 追記
+大学にいる間はプロキシの設定が必要かもしれないです．以下の情報を打ち込んでください．
+
+		git config --global http.proxy www-proxy.waseda.jp:8080
+
+    git config --global https.proxy www-proxy.waseda.jp:8080
