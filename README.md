@@ -46,14 +46,12 @@ GitHubにアップロード
     $ git push origin master
 
 # その他
+## Markdownについて
 Markdown方式に慣れよう
   - サンプル
     - https://github.com/iwanao731/Test
 
-openFrameworks addons (ofxaddons)
-  - http://ofxaddons.com/categories
-
-# 追記
+## プロキシの設定
 大学にいる間はプロキシの設定が必要かもしれないです．以下の情報を打ち込んでください．
 
     $ git config --global http.proxy www-proxy.waseda.jp:8080
@@ -63,11 +61,16 @@ openFrameworks addons (ofxaddons)
 
     $ git config --global --unset http.proxy
     $ git config --global --unset https.proxy
-# 特定のファイルを除去したい(.gitignoreを使う)
+## 特定ファイルの除去(.gitignoreを使う)
+.exeや.objといったファイルなどアップロードする必要のない場合は，.gitignoreファイルを生成して，中身を逐次書き加えていく．
 
 1. gitignoreの自動生成ツールを使用
   - [gitignore.io](https://www.gitignore.io/)
 2. 統合開発環境を検索(Visual Studio or openFrameworks等)
 3. .gitignoreに内容をコピー/ペースト
+
+## openFrameworksのaddon
+openFrameworks addons (ofxaddons)
+  - http://ofxaddons.com/categories
 
 
